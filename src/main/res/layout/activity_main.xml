@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/getConfigButton"
+            style="@style/MPUButtonStyle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET CONFIGURATION"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id = "@+id/paymentButton"
+            style="@style/MPUButtonStyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAYMENT"/>
+
+        <Button
+            android:id="@+id/refundButton"
+            style="@style/MPUButtonStyle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REFUND"/>
+        <EditText
+            android:id="@+id/amountField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   ENTER AMOUNT"
+            android:textColor="#707070"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/transactionReference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   TRANSACTION REFERENCE"
+            android:layout_marginTop="8px"
+            android:textColor="#707070"
+            android:textStyle="bold"/>
+<!--
+        <Button
+            android:id="@+id/transaction_e105_charge"
+            style="@style/MPUButtonStyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_e105"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/init_with_provider"
+            style="@style/MPUButtonStyle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/init_with_provider"/>
+
+
+
+
+        <Button
+            android:id="@+id/init_with_barclaycard"
+            style="@style/MPUButtonStyle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/init_with_barclaycard"/>
+
+
+
+
+        <Button
+            android:id="@+id/show_settings"
+            style="@style/MPUButtonStyle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"/>
+
+        <Button
+            android:id="@+id/logout"
+            style="@style/MPUButtonStyle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"/>
+
+
+
+
+        <Button
+            android:id="@+id/capture_last"
+            style="@style/MPUButtonStyle5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_last_capture"/>
+
+        <Button
+            android:id="@+id/print_last"
+            style="@style/MPUButtonStyle5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_last_print"/> -->
+        <TextView
+            android:id="@+id/logField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   log will come here"
+            android:layout_marginTop="50px"
+            android:textColor="#707070"
+            android:textStyle="bold"
+            android:maxLines="8"
+            android:lines="8"/>
+    </LinearLayout>
+</ScrollView>
