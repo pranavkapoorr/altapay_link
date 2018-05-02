@@ -120,5 +120,20 @@
             android:textStyle="bold"
             android:maxLines="8"
             android:lines="8"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+            <TextView
+                android:id="@+id/runtimeLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="   runtime log will come here"
+                android:layout_marginTop="50px"
+                android:textColor="#707070"
+                android:textStyle="bold" />
+        </ScrollView>
     </LinearLayout>
 </ScrollView>
