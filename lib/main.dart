@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'AltaPay-Link Pax',
       debugShowCheckedModeBanner: false,
+      debugShowMaterialGrid: false,
       theme: new ThemeData(
         primaryColor: new Color(0xffF4F4F4),
     accentColor: new Color(0xffA1A9A9)
